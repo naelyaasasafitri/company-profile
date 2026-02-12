@@ -47,4 +47,12 @@ export default defineNuxtConfig({
   tailwindcss: {
     viewer: false,
   },
+
+  nitro: {
+    prerender: {
+      failOnError: false,
+      crawlLinks: false,
+      routes: ['/'],
+    },
+  },
 })
