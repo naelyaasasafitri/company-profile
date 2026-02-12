@@ -13,6 +13,8 @@ export default {
     subtitle: 'We deliver cutting-edge technology solutions to help your business grow and thrive in the digital age.',
     cta: 'Get Started',
     learnMore: 'Learn More',
+    available: 'Available for new projects',
+    scrollDown: 'Scroll down',
   },
   about: {
     title: 'About Us',
@@ -54,6 +56,7 @@ export default {
         description: 'Ongoing support to keep your applications running smoothly.',
       },
     ],
+    learnMore: 'Learn More',
   },
   portfolio: {
     title: 'Our Portfolio',
@@ -75,6 +78,7 @@ export default {
         description: 'Real-time analytics dashboard for enterprise clients.',
       },
     ],
+    viewAll: 'View All Projects',
   },
   testimonials: {
     title: 'What Our Clients Say',
@@ -106,15 +110,19 @@ export default {
       subject: 'Subject',
       message: 'Your Message',
       send: 'Send Message',
+      sending: 'Sending',
     },
     info: {
       email: 'hello [at] company.com',
       phone: '+1 (555) 123-4567',
       address: '123 Tech Street, Silicon Valley, CA 94000',
     },
+    followUs: 'Follow Us',
   },
   footer: {
     tagline: 'Building the future of technology',
     rights: 'All rights reserved.',
+    quickLinks: 'Quick Links',
+    contact: 'Contact',
   },
 }

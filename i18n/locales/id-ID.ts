@@ -13,6 +13,8 @@ export default {
     subtitle: 'Kami menyediakan solusi teknologi terdepan untuk membantu bisnis Anda berkembang dan sukses di era digital.',
     cta: 'Mulai Sekarang',
     learnMore: 'Pelajari Lebih Lanjut',
+    available: 'Tersedia untuk proyek baru',
+    scrollDown: 'Scroll ke bawah',
   },
   about: {
     title: 'Tentang Kami',
@@ -54,6 +56,7 @@ export default {
         description: 'Dukungan berkelanjutan untuk menjaga aplikasi tetap berjalan lancar.',
       },
     ],
+    learnMore: 'Pelajari Lebih Lanjut',
   },
   portfolio: {
     title: 'Portofolio Kami',
@@ -75,6 +78,7 @@ export default {
         description: 'Dashboard analitik real-time untuk klien enterprise.',
       },
     ],
+    viewAll: 'Lihat Semua Proyek',
   },
   testimonials: {
     title: 'Apa Kata Klien Kami',
@@ -106,15 +110,19 @@ export default {
       subject: 'Subjek',
       message: 'Pesan Anda',
       send: 'Kirim Pesan',
+      sending: 'Mengirim',
     },
     info: {
       email: 'hello [at] company.com',
       phone: '+62 812 3456 7890',
       address: 'Jl. Teknologi No. 123, Jakarta Selatan, 12345',
     },
+    followUs: 'Ikuti Kami',
   },
   footer: {
     tagline: 'Membangun masa depan teknologi',
     rights: 'Hak cipta dilindungi.',
+    quickLinks: 'Tautan Cepat',
+    contact: 'Kontak',
   },
 }

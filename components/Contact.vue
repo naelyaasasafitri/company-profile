@@ -113,11 +113,14 @@
 
 <script setup lang="ts">
 import { ref, onMounted, reactive, computed } from 'vue'
+import { useI18n } from '#i18n'
 import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from 'lucide-vue-next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const { t } = useI18n()
 
 const headerRef = ref<HTMLElement | null>(null)
 const formRef = ref<HTMLElement | null>(null)
