@@ -108,7 +108,7 @@ export default {
       send: 'Kirim Pesan',
     },
     info: {
-      email: 'hello@company.com',
+      email: 'hello [at] company.com',
       phone: '+62 812 3456 7890',
       address: 'Jl. Teknologi No. 123, Jakarta Selatan, 12345',
     },

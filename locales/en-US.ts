@@ -108,7 +108,7 @@ export default {
       send: 'Send Message',
     },
     info: {
-      email: 'hello@company.com',
+      email: 'hello [at] company.com',
       phone: '+1 (555) 123-4567',
       address: '123 Tech Street, Silicon Valley, CA 94000',
     },

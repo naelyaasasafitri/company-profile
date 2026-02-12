@@ -112,7 +112,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, reactive } from 'vue'
+import { ref, onMounted, reactive, computed } from 'vue'
 import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from 'lucide-vue-next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -132,15 +132,11 @@ const form = reactive({
 
 const isSubmitting = ref(false)
 
-const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'hello@company.com' },
-  { icon: Phone, label: 'Phone', value: '+62 812 3456 7890' },
-  {
-    icon: MapPin,
-    label: 'Address',
-    value: 'Jl. Teknologi No. 123, Jakarta Selatan, 12345',
-  },
-]
+const contactInfo = computed(() => [
+  { icon: Mail, label: 'Email', value: t('contact.info.email').replace('[at]', '@') },
+  { icon: Phone, label: 'Phone', value: t('contact.info.phone') },
+  { icon: MapPin, label: 'Address', value: t('contact.info.address') },
+])
 
 const socialLinks = [
   { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },

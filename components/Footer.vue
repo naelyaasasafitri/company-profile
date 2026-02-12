@@ -36,8 +36,8 @@
         <div>
           <h4 class="font-bold text-lg mb-4">{{ $t('footer.contact') }}</h4>
           <ul class="space-y-2 text-gray-400">
-            <li>hello@company.com</li>
-            <li>+62 812 3456 7890</li>
+            <li>{{ $t('contact.info.email').replace('[at]', '@') }}</li>
+            <li>{{ $t('contact.info.phone') }}</li>
             <li>Jakarta, Indonesia</li>
           </ul>
         </div>
